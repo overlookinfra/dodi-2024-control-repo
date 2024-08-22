@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Copyright 2024. Puppet, Inc., a Perforce company. 
+
 # Usage
 if [ $# -ne 2 -o ! -d "$1" -o ! -d "$1/$2" ]; then
   echo "usage: $0 <environmentpath> <environment>" >&2

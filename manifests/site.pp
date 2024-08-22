@@ -1,3 +1,5 @@
+# Copyright 2024. Puppet, Inc., a Perforce company. 
+
 ## site.pp ##
 
 # This file (./manifests/site.pp) is the main entry point

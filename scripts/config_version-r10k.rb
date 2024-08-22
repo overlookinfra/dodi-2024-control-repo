@@ -1,4 +1,7 @@
 #!/opt/puppetlabs/puppet/bin/ruby
+
+# Copyright 2024. Puppet, Inc., a Perforce company. 
+
 require 'json'
 require 'socket'
 

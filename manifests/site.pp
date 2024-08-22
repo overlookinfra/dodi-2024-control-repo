@@ -27,7 +27,8 @@ File { backup => false }
 #
 # For more on node definitions, see: https://puppet.com/docs/puppet/latest/lang_node_definitions.html
 node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
+  notify { 'default_message':
+    message  => 'This is the default profile for all nodes.',
+    loglevel => 'notice',
+  }
 }

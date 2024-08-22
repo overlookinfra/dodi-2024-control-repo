@@ -1,3 +1,7 @@
+# Educational Demo Control Repository
+
+This control repository is provided as-is and without warranty for demonstration purposes only.
+
 # A Puppet Control Repository
 
 * [What You Get From This control\-repo](#what-you-get-from-this-control-repo)
